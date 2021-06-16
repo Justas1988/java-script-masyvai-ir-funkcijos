@@ -5,12 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Masyvas</title>
+    <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
+    <nav>
+        <a href="./masyvas-ir-saknis/">Masyvas ir šaknis</a>
+        <a href="../3-uzduotis/">Trečia užduotis</a>    
+    </nav>
     <main>
-        <label for="ivestis">Įveskite masyvo elementą</label>
+        <label for="ivestis" class="labels">Įveskite masyvo elementą</label>
         <br>
-        <input type="text" id="ivestis"/>
+        <input type="text" id="ivestis" class="inputs"/>
         <br>
         <button id="button" onclick="elementGenerator()">Įvesti</button>
         <br>
@@ -19,13 +24,13 @@
         <br>
         <br>
 
-        <label for="root">Įveskite skaičių</label>
+        <label for="root" class="labels">Įveskite skaičių</label>
         <br>
-        <input type="number" id="root"/>
+        <input type="number" id="root" class="inputs"/>
         <br>
         <button id="button" onclick="rootRooter()">Įvesti</button>
         <br>
-        <input type="text" id="rezultatas" disabled />
+        <input type="text" id="rezultatas" class="inputs" disabled />
 
         
     </main>
