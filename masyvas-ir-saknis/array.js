@@ -18,6 +18,18 @@ function elementGenerator() {
     return masyvas;
 }
 
+function rootRooter() {
+    let skaicius = document.getElementById("root").value;
+    if (skaicius < 0) {
+        document.getElementById("rezultatas").value = "No root from negative numbers!";        
+    } else { 
+        let saknis = Math.sqrt(skaicius);  
+        document.getElementById("rezultatas").value = "Šaknis iš įvesto skaičiaus: " + saknis;      
+    }
+                
+
+}
+
 
 
 
